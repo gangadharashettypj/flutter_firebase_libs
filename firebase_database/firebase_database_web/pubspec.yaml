@@ -19,9 +19,10 @@ dependencies:
   firebase_core: ^0.5.0
   js: ^0.6.1
   firebase_database_platform_interface:
-    url: https://github.com/gangadharashettypj/flutter_firebase_libs
-    ref: master
-    path: firebase_database/firebase_database_platform_interface
+    git:
+      url: https://github.com/gangadharashettypj/flutter_firebase_libs
+      ref: master
+      path: firebase_database/firebase_database_platform_interface
   
 dev_dependencies:
   flutter_test:
